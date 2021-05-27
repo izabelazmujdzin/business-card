@@ -2,7 +2,7 @@ html {
     box-sizing;: border-box;
   }
   
-  *,*:before, *:after {
+  *,*: :before, *:after {
     box-sizing: inherit;
   }
 
@@ -23,11 +23,17 @@ html {
     padding: 32px;
   }
 
+.person {
+    display: flex;
+    align-items: flex-start;
+
+}
+
   .person__info {
       margin-bottom: 24px;
     
-
   }
+
   .person__desctription {
       font-size: 16px;
       line-height: 22px;
@@ -59,12 +65,10 @@ html {
       margin: 0;
       font-style: italic;
   }
-    
-  }
 
   .person__picture {
       border-radius: 50%;
-      margin: 0;
+      margin-right: 32px;
   }
 
   .special {
